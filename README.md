@@ -1,2 +1,2 @@
-# mea-2101l-lab-report-template
-Lab report template for Electrical Engineering Laboratory (MEA 2101L)
+# MEA 2202L Lab Report Template
+Lab report template for Electronics Engineering Laboratory (MEA 2202L)
