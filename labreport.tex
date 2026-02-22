@@ -1,0 +1,55 @@
+\documentclass[12pt,legalpaper]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\course}{MEA 2101L}
+\newcommand{\schedule}{Th 10:30-1:30pm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\usepackage[margin=1in]{geometry}		% For setting margins
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{multicol}
+\usepackage{circuitikz}
+\usepackage{siunitx}
+\usepackage{graphicx}
+\usepackage{fancyhdr}				% For fancy header/footer
+\usepackage{float}
+\usepackage{pgfplots}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\pgfplotsset{compat=1.18}
+
+
+%%%%%%%%%%%%%%%%%%%%%%
+% Set up fancy header/footer
+\pagestyle{fancy}
+\fancyhead[LO,L]{\course}
+\fancyhead[CO,C]{}
+\fancyhead[RO,R]{\schedule}
+\fancyfoot[LO,L]{}
+\fancyfoot[CO,C]{\thepage}
+\fancyfoot[RO,R]{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+%%%%%%%%%%%%%%%%%%%%%%
+
+% Change subsubsection numbering to just "1", "2", "3", ...
+\renewcommand\thesubsubsection{\arabic{subsubsection}}
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+
+%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\include{coverpage.tex}
+\section*{Introduction}
+\section*{Experimental Procedure}
+% circuit diagrams here
+
+\section*{Experimental Data}
+% tables here
+
+\section*{Discussion}
+
+\section*{Conclusions}
+
+\end{document}
